@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  firebird:
+      build: 
+        context: firebird/
+      ports:
+        - "3050:3050"
+      volumes:
+        - ./firebird:/firebird
+      networks: 
+        - firebird
+      environment: 
+        - ISC_PASSWORD=sysdba
+
+networks:
+  firebird:
+    driver: bridge
+
+volumes:
+  firebird:
+      

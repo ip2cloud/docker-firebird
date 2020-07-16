@@ -1,0 +1,9 @@
+
+ef6378db4715	Thu Jul 16 03:52:16 2020
+	/usr/local/firebird/bin/fbguard: guardian starting /usr/local/firebird/bin/firebird
+
+
+
+ef6378db4715	Thu Jul 16 03:52:17 2020
+	setsockopt: error setting IPV6_V6ONLY to 0
+
